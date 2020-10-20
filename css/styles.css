@@ -1,0 +1,185 @@
+/**********************TAG SELECTORS*********************/
+body {
+  background-color: #62929a;
+  color: #40514e;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #233142;
+  font-family: 'Sacramento', cursive;
+  font-size: 4rem;
+  margin: 10px auto 0 auto;
+}
+
+h2 {
+  color: #233142;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  font-weight: normal;
+  padding: 30px;
+
+}
+
+h3 {
+  color: #233142;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+  color: #233142;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+}
+
+p {
+  line-height: 2;
+}
+
+a:link {
+  color: #145374;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #00334e;
+}
+
+a:hover {
+  color: #00334e;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #b8b0b0;
+  border-width: 10px;
+  margin: 70px auto;
+  width: 8%;
+}
+
+
+
+
+/**********************CLASS SELECTORS*********************/
+
+.top-cloud {
+  position: absolute;
+  right: 150px;
+  top: 30px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 150px;
+  top: 300px;
+}
+
+.profile {
+  width: 30%;
+  margin: auto;
+}
+
+.profile-pic {
+  margin: 50px auto 0 auto;
+}
+
+.top-container {
+  padding-top: 70px;
+}
+
+.middle-container {
+  background: #dfdfdf;
+  padding-bottom: 20px;
+}
+
+.skill-div {
+  margin: 50px auto;
+  text-align: left;
+  width: 40%;
+}
+
+.skill-icon {
+  width: 50px;
+
+}
+
+.skill-icon-div {
+  margin: auto;
+  width: 40%;
+  height: 50px;
+}
+
+.trainings-div {
+  margin: 50px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.training-pic {
+  float: left;
+  margin-right: 20px;
+  width: 110px;
+}
+
+.training-course {
+  padding-bottom: 30px;
+}
+
+.projects-div {
+  margin: 50px auto;
+  text-align: left;
+  width: 40%;
+}
+
+.p-icon {
+  width: 70px;
+  float: left;
+  margin-right: 20px;
+}
+
+.contact-me {
+  width: 60%;
+  margin: 50px auto;
+}
+
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+   font-weight: 600;
+   padding: 10px;
+   border: solid #62929A 3px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 20px;
+}
+
+.btn:hover {
+   background: #62929A;
+   border: solid #62929A 3px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.bottom-container {
+  color: black;
+  font-size: 0.75rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+/**********************ID SELECTORS*********************/
