@@ -72,20 +72,20 @@ hr {
 
 .main-icon {
   padding: 35px;
-  width: 300px;
+  width: 280px;
+}
+
+.idea-icon {
+  padding: 10px 60px;
+  position: absolute;
+  width: 150px;
 
 }
 
-.top-cloud {
+.mug-icon {
+  padding: 20px;
   position: absolute;
-  right: 150px;
-  top: 30px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 150px;
-  top: 300px;
+  width: 50px;
 }
 
 .profile {
@@ -95,7 +95,7 @@ hr {
 
 .profile-pic {
   margin: 50px auto 0 auto;
-  width: 150px;
+  width: 200px;
 }
 
 .top-container {
