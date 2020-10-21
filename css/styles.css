@@ -10,7 +10,7 @@ body {
 h1 {
   color: #233142;
   font-family: 'Sacramento', cursive;
-  font-size: 4rem;
+  font-size: 3.5rem;
   margin: 10px auto 0 auto;
 }
 
@@ -26,6 +26,8 @@ h2 {
 h3 {
   color: #233142;
   font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+
 }
 
 h4 {
@@ -68,6 +70,12 @@ hr {
 
 /**********************CLASS SELECTORS*********************/
 
+.main-icon {
+  padding: 20px;
+  width: 300px;
+
+}
+
 .top-cloud {
   position: absolute;
   right: 150px;
@@ -91,6 +99,7 @@ hr {
 
 .top-container {
   padding-top: 70px;
+  padding-bottom: 20px;
 }
 
 .middle-container {
@@ -111,8 +120,9 @@ hr {
 
 .skill-icon-div {
   margin: auto;
-  width: 40%;
+  width: 70%;
   height: 50px;
+  text-align: center;
 }
 
 .trainings-div {
