@@ -148,10 +148,31 @@ hr {
   width: 40%;
 }
 
+.p-projects {
+  line-height: 1;
+}
+
+.p-site {
+  padding: 3%;
+}
+
+.great-apps {
+  padding: 3%;
+}
+
+
+
 .p-icon {
   width: 70px;
   float: left;
   margin-right: 20px;
+}
+
+.great-apps-logo {
+  width: 70px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 100%;
 }
 
 .contact-me {
