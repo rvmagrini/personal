@@ -214,4 +214,26 @@ hr {
 }
 
 
-/**********************ID SELECTORS*********************/
+@media (max-width: 1028px) {
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  h3 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  .profile {
+    width: 30rem;
+  }
+
+  .skill-div {
+    width: 40rem;
+  }
+
+}
