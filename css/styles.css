@@ -75,19 +75,6 @@ hr {
   width: 280px;
 }
 
-.idea-icon {
-  padding: 10px 60px;
-  position: absolute;
-  width: 150px;
-
-}
-
-.mug-icon {
-  padding: 20px;
-  position: absolute;
-  width: 50px;
-}
-
 .profile {
   width: 30%;
   margin: auto;
@@ -111,25 +98,24 @@ hr {
 .skill-div {
   margin: 50px auto;
   text-align: left;
-  width: 40%;
+  width: 30%;
 }
 
 .skill-icon {
   width: 50px;
+  margin: 2%;
 
 }
 
 .skill-icon-div {
   margin: auto;
-  width: 70%;
-  height: 50px;
   text-align: center;
 }
 
 .trainings-div {
   margin: 50px auto;
   text-align: left;
-  width: 50%;
+  width: 40%;
 }
 
 .training-pic {
@@ -216,6 +202,10 @@ hr {
 
 @media (max-width: 1028px) {
 
+  h1 {
+    font-size: 6rem;
+  }
+
   h2 {
     font-size: 4rem;
   }
@@ -224,12 +214,17 @@ hr {
     font-size: 3rem;
   }
 
+
   h4 {
     font-size: 2rem;
   }
 
   p {
     font-size: 1.5rem;
+  }
+
+  .sub-title {
+    font-size: 1rem;
   }
 
   .profile {
