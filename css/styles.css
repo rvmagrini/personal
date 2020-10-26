@@ -70,6 +70,10 @@ hr {
 
 /**********************CLASS SELECTORS*********************/
 
+.sub-title {
+  color: #233142;
+}
+
 .main-icon {
   padding: 35px;
   width: 280px;
