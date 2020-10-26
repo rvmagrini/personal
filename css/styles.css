@@ -149,7 +149,7 @@ hr {
 }
 
 .p-projects {
-  line-height: 1;
+  line-height: 1.5;
 }
 
 .p-site {
@@ -274,6 +274,8 @@ hr {
       line-height: 1;
   }
 
-
+  .p-bottom {
+    font-size: 0.25rem;
+  }
 
 }
