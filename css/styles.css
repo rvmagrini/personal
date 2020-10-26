@@ -153,11 +153,11 @@ hr {
 }
 
 .p-site {
-  padding: 3%;
+  padding: 0 0 3% 0;
 }
 
 .great-apps {
-  padding: 3%;
+  padding: 0 0 3% 0;
 }
 
 
@@ -268,6 +268,10 @@ hr {
 
   .great-apps-logo {
     width: 100px;
+  }
+
+  .p-projects {
+      line-height: 1;
   }
 
 
