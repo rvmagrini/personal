@@ -224,16 +224,52 @@ hr {
     font-size: 3rem;
   }
 
+  h4 {
+    font-size: 2rem;
+  }
+
   p {
     font-size: 1.5rem;
   }
 
   .profile {
-    width: 30rem;
+    width: 40rem;
   }
 
   .skill-div {
     width: 40rem;
   }
+
+  .trainings-div {
+    width: 40rem;
+  }
+
+  .skill-div {
+    width: 40rem;
+  }
+
+  .skill-icon-div {
+    width: 40rem;
+    height: 8rem;
+    margin: 10px 0;
+  }
+
+  .skill-icon {
+    width: 6rem;
+  }
+
+  .projects-div {
+    width: 40rem;
+  }
+
+  .p-icon {
+    width: 100px;
+  }
+
+  .great-apps-logo {
+    width: 100px;
+  }
+
+
 
 }
