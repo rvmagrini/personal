@@ -72,6 +72,7 @@ hr {
 
 .sub-title {
   color: #233142;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .main-icon {
@@ -196,6 +197,10 @@ hr {
    text-decoration: none;
 }
 
+.contact-icons {
+  padding: 5%;
+}
+
 .bottom-container {
   color: black;
   font-size: 0.75rem;
@@ -228,7 +233,7 @@ hr {
   }
 
   .sub-title {
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: #233142;
   }
 
