@@ -189,6 +189,7 @@ hr {
    cursor: pointer;
    text-align: center;
    margin: 20px;
+   width: 75px;
 }
 
 .btn:hover {
