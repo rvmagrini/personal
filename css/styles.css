@@ -81,11 +81,11 @@ hr {
 
 .profile {
   width: 30%;
-  margin: auto;
+  margin: auto auto 100px auto;
 }
 
 .profile-pic {
-  margin: 50px auto 0 auto;
+  margin: 100px auto 0 auto;
   width: 200px;
 }
 
@@ -100,7 +100,7 @@ hr {
 }
 
 .skill-div {
-  margin: 50px auto;
+  margin: 100px auto 100px auto;
   text-align: left;
   width: 30%;
 }
@@ -133,7 +133,7 @@ hr {
 }
 
 .projects-div {
-  margin: 50px auto;
+  margin: 50px auto 100px auto;
   text-align: left;
   width: 40%;
 }
@@ -150,20 +150,7 @@ hr {
   padding: 0 0 3% 0;
 }
 
-.p-icon {
-  width: 70px;
-  float: left;
-  margin-right: 20px;
-}
-
-.great-apps-logo {
-  width: 70px;
-  float: left;
-  margin-right: 20px;
-  border-radius: 100%;
-}
-
-.hotel-icon {
+.projects-icons {
   width: 70px;
   float: left;
   margin-right: 20px;
@@ -180,7 +167,7 @@ hr {
    border-radius: 20px;
    color: #FFFFFF;
    font-family: 'Montserrat', sans-serif;
-   font-size: 16px;
+   font-size: 15px;
    font-weight: 600;
    padding: 10px;
    border: solid #62929A 3px;
@@ -189,7 +176,7 @@ hr {
    cursor: pointer;
    text-align: center;
    margin: 20px;
-   width: 75px;
+   width: 115px;
 }
 
 .btn:hover {
@@ -207,9 +194,8 @@ hr {
 
 .bottom-container {
   color: black;
-  font-size: 0.75rem;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  font-size: 10px;
+  padding: 5px;
 }
 
 
@@ -271,16 +257,16 @@ hr {
     width: 40rem;
   }
 
-  .p-icon {
-    width: 100px;
-  }
-
-  .great-apps-logo {
+  .projects-icons {
     width: 100px;
   }
 
   .p-projects {
       line-height: 1;
+  }
+
+  .contact-me {
+    width: 80%;
   }
 
   .p-bottom {
