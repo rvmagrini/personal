@@ -2,40 +2,38 @@
 body {
   background-color: #62929a;
   color: #40514e;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   margin: 0;
   text-align: center;
 }
 
 h1 {
   color: #233142;
-  font-family: 'Sacramento', cursive;
+  font-family: "Sacramento", cursive;
   font-size: 4rem;
   margin: 10px auto 0 auto;
 }
 
 h2 {
   color: #233142;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.8rem;
   font-weight: normal;
   padding: 30px;
-
 }
 
 h3 {
   color: #233142;
-  font-family: 'Montserrat', sans-serif;
-
+  font-family: "Montserrat", sans-serif;
 }
 
 h4 {
   color: #233142;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 h5 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0 auto;
 }
 
@@ -64,14 +62,11 @@ hr {
   width: 8%;
 }
 
-
-
-
 /**********************CLASS SELECTORS*********************/
 
 .sub-title {
   color: #233142;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .main-icon {
@@ -108,7 +103,6 @@ hr {
 .skill-icon {
   width: 50px;
   margin: 2%;
-
 }
 
 .skill-icon-div {
@@ -138,15 +132,8 @@ hr {
   width: 40%;
 }
 
-.p-projects {
+.project {
   line-height: 1.5;
-}
-
-.p-site {
-  padding: 0 0 3% 0;
-}
-
-.great-apps {
   padding: 0 0 3% 0;
 }
 
@@ -162,30 +149,30 @@ hr {
 }
 
 .btn {
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   color: #FFFFFF;
-   font-family: 'Montserrat', sans-serif;
-   font-size: 15px;
-   font-weight: 600;
-   padding: 10px;
-   border: solid #62929A 3px;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
-   margin: 20px;
-   width: 115px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px;
+  border: solid #62929a 3px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 20px;
+  width: 115px;
 }
 
 .btn:hover {
-   background: #62929A;
-   border: solid #62929A 3px;
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 20px;
-   text-decoration: none;
+  background: #62929a;
+  border: solid #62929a 3px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
 }
 
 .contact-icons {
@@ -198,9 +185,7 @@ hr {
   padding: 5px;
 }
 
-
 @media (max-width: 1028px) {
-
   h1 {
     font-size: 6rem;
   }
@@ -212,7 +197,6 @@ hr {
   h3 {
     font-size: 3rem;
   }
-
 
   h4 {
     font-size: 2rem;
@@ -262,7 +246,7 @@ hr {
   }
 
   .p-projects {
-      line-height: 1;
+    line-height: 1;
   }
 
   .contact-me {
@@ -272,5 +256,4 @@ hr {
   .p-bottom {
     font-size: 0.25rem;
   }
-
 }
