@@ -16,9 +16,27 @@ body {
   text-align: center;
 }
 
+p {
+  line-height: 2;
+}
+
+a:link {
+  color: #145374;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #00334e;
+}
+
+a:hover {
+  color: #00334e;
+}
+
 header {
   background-color: #62929a;
   color: #40514e;
+  height: 95vh;
   padding: 15vh 0 15vh 0;
 }
 
@@ -44,12 +62,14 @@ main {
   background: #dfdfdf;
 }
 
-.profile {
-  padding: 10vh 0 10vh 0;
+section {
+  padding: 15vh 0 15vh 0;
+  font-size: 1.8rem;
 }
 
 .profile-pic {
   width: 200px;
+  margin-bottom: 5vh;
 }
 
 h2 {
@@ -57,77 +77,67 @@ h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 4rem;
   font-weight: normal;
-  padding: 5vh 0 5vh 0;
+  padding-bottom: 7vh;
+}
+
+.text-box {
+  text-align: left;
+  margin: auto;
+  font-size: 1.8rem;
 }
 
 .about-me {
-  width: 60vw;
-  margin: auto;
-}
-
-h3 {
-  color: #233142;
-  font-family: "Montserrat", sans-serif;
-}
-
-h4 {
-  color: #233142;
-  font-family: "Montserrat", sans-serif;
-}
-
-h5 {
-  font-family: "Montserrat", sans-serif;
-  margin: 0 auto;
-}
-
-p {
-  line-height: 2;
-}
-
-a:link {
-  color: #145374;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #00334e;
-}
-
-a:hover {
-  color: #00334e;
+  text-align: center;
+  width: 40vw;
 }
 
 hr {
   border-style: dotted none none;
   border-color: #b8b0b0;
   border-width: 10px;
-  margin: 70px auto;
+  margin: auto;
   width: 8%;
 }
 
-.skill-div {
+.text-box-skill {
+  width: 50vw;
+}
+
+.icon-box-skill {
+  width: 50vw;
   margin: auto;
-  text-align: left;
-  width: 60vw;
+  margin: 3vh auto 5vh auto;
+}
+
+h3 {
+  color: #233142;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 2vh;
 }
 
 .skill-icon {
-  width: 40px;
+  width: 50px;
   margin: 2%;
 }
 
-.skill-icon-div {
+.text-box-training {
+  width: 50vw;
+  margin-bottom: 5vh;
+}
+
+.training-item {
+  display: flex;
+}
+
+h5 {
+  font-family: "Montserrat", sans-serif;
   margin: auto;
-  text-align: center;
 }
 
-.trainings-div {
-  margin: 50px auto;
-  text-align: left;
-  width: 50%;
-}
 
-.training-pic {
+
+
+.training-img {
   float: left;
   margin-right: 20px;
   border-radius: 16px;
@@ -196,7 +206,7 @@ hr {
   font-size: 10px;
   padding: 5px;
 }
-
+/*
 @media (max-width: 700px) {
   h1 {
     font-size: 4rem;
