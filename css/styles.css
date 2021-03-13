@@ -63,7 +63,7 @@ main {
 }
 
 section {
-  padding: 15vh 0 15vh 0;
+  padding: 15vh 0 10vh 0;
   font-size: 1.8rem;
 }
 
@@ -75,9 +75,9 @@ section {
 h2 {
   color: #233142;
   font-family: "Montserrat", sans-serif;
-  font-size: 4rem;
+  font-size: 4.5rem;
   font-weight: normal;
-  padding-bottom: 7vh;
+  padding-bottom: 8vh;
 }
 
 .text-box {
@@ -89,6 +89,7 @@ h2 {
 .about-me {
   text-align: center;
   width: 40vw;
+  padding-bottom: 5vh;
 }
 
 hr {
@@ -104,7 +105,7 @@ hr {
 }
 
 .icon-box-skill {
-  width: 50vw;
+  width: 80vw;
   margin: auto;
   margin: 3vh auto 5vh auto;
 }
@@ -116,7 +117,7 @@ h3 {
 }
 
 .skill-icon {
-  width: 50px;
+  width: 40px;
   margin: 2%;
 }
 
@@ -135,7 +136,6 @@ h5 {
   margin: auto;
 }
 
-
 .training-img {
   float: left;
   margin-right: 20px;
@@ -143,15 +143,17 @@ h5 {
   width: 110px;
 }
 
-.projects-div {
-  margin: 50px auto 100px auto;
+.text-box-projects {
+  margin-bottom: 5vh;
   text-align: left;
-  width: 50%;
+  width: 50vw;
 }
 
-.project {
+.project-item {
+  display: flex;
+  align-items: center;
   line-height: 1.5;
-  padding: 0 0 3% 0;
+  padding-bottom: 3vh;
 }
 
 .projects-icons {
@@ -161,8 +163,8 @@ h5 {
 }
 
 .contact-me {
-  width: 60%;
-  margin: 50px auto;
+  width: 85vw;
+  margin: auto;
 }
 
 .btn {
@@ -179,7 +181,7 @@ h5 {
   display: inline-block;
   cursor: pointer;
   text-align: center;
-  margin: 20px;
+  margin: 2vw;
 }
 
 .btn:hover {
@@ -192,86 +194,22 @@ h5 {
 }
 
 .contact-icons {
-  padding: 5%;
+  padding: 2vh;
 }
 
 footer {
   color: black;
-  font-size: 10px;
-  padding: 5px;
+  font-size: 0.9rem;
+  padding: 3vh;
   background-color: #62929a;
 }
-/*
-@media (max-width: 700px) {
-  h1 {
-    font-size: 4rem;
+
+@media (max-width: 715px) {
+  .text-box {
+    width: 85vw;
   }
 
-  h2 {
-    font-size: 4rem;
-  }
-
-  h3 {
-    font-size: 3rem;
-  }
-
-  h4 {
-    font-size: 2rem;
-  }
-
-  p {
-    font-size: 1.5rem;
-  }
-
-  .sub-title {
-    font-size: 0.8rem;
-    color: #233142;
-  }
-
-  .main-icon {
-    padding: 10px;
-    width: 130px;
-  }
-
-  .profile {
-    width: 40rem;
-  }
-
-  .trainings-div {
-    width: 40rem;
-  }
-
-  .skill-div {
-    width: 40rem;
-  }
-
-  .skill-icon-div {
-    width: 40rem;
-    height: 8rem;
-    margin: 10px 0;
-  }
-
-  .skill-icon {
-    width: 100%;
-  }
-
-  .projects-div {
-    width: 40rem;
-  }
-
-  .projects-icons {
-    width: 100px;
-  }
-
-  .p-projects {
-    line-height: 1;
-  }
-
-  .contact-me {
-    width: 80%;
-  }
-
-  .p-bottom {
-    font-size: 0.25rem;
+  .contact-icons {
+    padding: 1.5vh;
   }
 }
