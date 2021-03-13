@@ -1,25 +1,68 @@
 /**********************TAG SELECTORS*********************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html,
 body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 60%;
+  font-family: "Merriweather", serif;
+  text-align: center;
+}
+
+header {
   background-color: #62929a;
   color: #40514e;
-  font-family: "Merriweather", serif;
-  margin: 0;
-  text-align: center;
+  padding: 15vh 0 15vh 0;
 }
 
 h1 {
   color: #233142;
   font-family: "Sacramento", cursive;
-  font-size: 4rem;
-  margin: 10px auto 0 auto;
+  font-size: 6rem;
+  margin-bottom: 40px;
+}
+
+.sub-title {
+  color: #233142;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+
+.main-icon {
+  width: 200px;
+}
+
+main {
+  background: #dfdfdf;
+}
+
+.profile {
+  padding: 10vh 0 10vh 0;
+}
+
+.profile-pic {
+  width: 200px;
 }
 
 h2 {
   color: #233142;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.8rem;
+  font-size: 4rem;
   font-weight: normal;
-  padding: 30px;
+  padding: 5vh 0 5vh 0;
+}
+
+.about-me {
+  width: 60vw;
+  margin: auto;
 }
 
 h3 {
@@ -62,46 +105,14 @@ hr {
   width: 8%;
 }
 
-/**********************CLASS SELECTORS*********************/
-
-.sub-title {
-  color: #233142;
-  font-family: "Montserrat", sans-serif;
-}
-
-.main-icon {
-  padding: 35px;
-  width: 280px;
-}
-
-.profile {
-  width: 30%;
-  margin: auto auto 100px auto;
-}
-
-.profile-pic {
-  margin: 100px auto 0 auto;
-  width: 200px;
-}
-
-.top-container {
-  padding-top: 70px;
-  padding-bottom: 20px;
-}
-
-.middle-container {
-  background: #dfdfdf;
-  padding-bottom: 20px;
-}
-
 .skill-div {
-  margin: 50px auto 150px auto;
+  margin: auto;
   text-align: left;
-  width: 30%;
+  width: 60vw;
 }
 
 .skill-icon {
-  width: 50px;
+  width: 40px;
   margin: 2%;
 }
 
@@ -113,12 +124,13 @@ hr {
 .trainings-div {
   margin: 50px auto;
   text-align: left;
-  width: 40%;
+  width: 50%;
 }
 
 .training-pic {
   float: left;
   margin-right: 20px;
+  border-radius: 16px;
   width: 110px;
 }
 
@@ -129,7 +141,7 @@ hr {
 .projects-div {
   margin: 50px auto 100px auto;
   text-align: left;
-  width: 40%;
+  width: 50%;
 }
 
 .project {
@@ -185,9 +197,9 @@ hr {
   padding: 5px;
 }
 
-@media (max-width: 1028px) {
+@media (max-width: 700px) {
   h1 {
-    font-size: 6rem;
+    font-size: 4rem;
   }
 
   h2 {
@@ -211,11 +223,12 @@ hr {
     color: #233142;
   }
 
-  .profile {
-    width: 40rem;
+  .main-icon {
+    padding: 10px;
+    width: 130px;
   }
 
-  .skill-div {
+  .profile {
     width: 40rem;
   }
 
@@ -234,7 +247,7 @@ hr {
   }
 
   .skill-icon {
-    width: 6rem;
+    width: 100%;
   }
 
   .projects-div {
