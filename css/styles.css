@@ -253,7 +253,28 @@ footer {
     padding-bottom: 4vh;
   }
 
+  .training-item {
+    display: grid;
+    align-items: center;
+  }
+
+  .training-img {
+    margin: 0 auto 2vh auto;
+  }
+
+  .trainings {
+    padding-bottom: 3vh;
+  }
+
+  .projects {
+    padding-bottom: 3vh;
+  }
+
+  .contact-me {
+    width: 100vw;
+  }
+
   .contact-icons {
-    padding: 1.5vh;
+    padding: 0.7vh;
   }
 }
