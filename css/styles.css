@@ -122,11 +122,12 @@ h3 {
 
 .text-box-training {
   width: 50vw;
-  margin-bottom: 5vh;
+  margin-bottom: 7vh;
 }
 
 .training-item {
   display: flex;
+  align-items: center;
 }
 
 h5 {
@@ -135,17 +136,11 @@ h5 {
 }
 
 
-
-
 .training-img {
   float: left;
   margin-right: 20px;
   border-radius: 16px;
   width: 110px;
-}
-
-.training-course {
-  padding-bottom: 30px;
 }
 
 .projects-div {
@@ -185,7 +180,6 @@ h5 {
   cursor: pointer;
   text-align: center;
   margin: 20px;
-  width: 115px;
 }
 
 .btn:hover {
@@ -201,10 +195,11 @@ h5 {
   padding: 5%;
 }
 
-.bottom-container {
+footer {
   color: black;
   font-size: 10px;
   padding: 5px;
+  background-color: #62929a;
 }
 /*
 @media (max-width: 700px) {
