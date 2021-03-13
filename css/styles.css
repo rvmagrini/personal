@@ -205,8 +205,12 @@ footer {
 }
 
 @media (max-width: 715px) {
+  header {
+    padding: 8vh 0;
+  }
+
   h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 
   .sub-title {
@@ -214,11 +218,39 @@ footer {
   }
 
   .main-icon {
-    width: 150px;
+    width: 100px;
+  }
+
+  section {
+    padding: 8vh 0;
+  }
+
+  .profile-pic {
+    width: 120px;
+  }
+
+  h2 {
+    font-size: 3rem;
   }
 
   .text-box {
     width: 85vw;
+  }
+
+  .about-me {
+    padding-bottom: 0;
+  }
+
+  .icon-box-skill {
+    width: 100vw;
+  }
+
+  .skill-icon {
+    width: 35px;
+  }
+
+  .skills {
+    padding-bottom: 4vh;
   }
 
   .contact-icons {
