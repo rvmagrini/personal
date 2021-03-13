@@ -6,12 +6,12 @@
   box-sizing: inherit;
 }
 
-html,
-body {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+html {
   font-size: 60%;
+  box-sizing: border-box;
+}
+
+body {
   font-family: "Merriweather", serif;
   text-align: center;
 }
@@ -36,7 +36,6 @@ a:hover {
 header {
   background-color: #62929a;
   color: #40514e;
-  height: 95vh;
   padding: 15vh 0 15vh 0;
 }
 
@@ -129,6 +128,7 @@ h3 {
 .training-item {
   display: flex;
   align-items: center;
+  padding: 10px;
 }
 
 h5 {
@@ -205,6 +205,18 @@ footer {
 }
 
 @media (max-width: 715px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  .sub-title {
+    font-size: 1.5rem;
+  }
+
+  .main-icon {
+    width: 150px;
+  }
+
   .text-box {
     width: 85vw;
   }
