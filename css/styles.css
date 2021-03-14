@@ -230,7 +230,7 @@ footer {
   }
 
   h2 {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
   }
 
   .text-box {
@@ -255,11 +255,11 @@ footer {
 
   .training-item {
     display: grid;
-    align-items: center;
+    text-align: left;
   }
 
   .training-img {
-    margin: 0 auto 2vh auto;
+    margin: 0 auto 2vh 0;
   }
 
   .trainings {
@@ -268,6 +268,10 @@ footer {
 
   .projects {
     padding-bottom: 3vh;
+  }
+
+  .projects-icons {
+    width: 45px;
   }
 
   .contact-me {
