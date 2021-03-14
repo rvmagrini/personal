@@ -126,9 +126,10 @@ h3 {
 }
 
 .training-item {
-  display: flex;
-  align-items: center;
   padding: 10px;
+  display: grid;
+  border-left: 1.5px solid rgba(0, 0, 0, 0.514);
+  border-radius: 16px;
 }
 
 h5 {
@@ -138,7 +139,7 @@ h5 {
 
 .training-img {
   float: left;
-  margin-right: 20px;
+  margin: 0 auto 2vh 0;
   border-radius: 16px;
   width: 110px;
 }
@@ -251,17 +252,6 @@ footer {
 
   .skills {
     padding-bottom: 4vh;
-  }
-
-  .training-item {
-    display: grid;
-    text-align: left;
-    border-left: 1.5px solid rgba(0, 0, 0, 0.514);
-    border-radius: 16px;
-  }
-
-  .training-img {
-    margin: 0 auto 2vh 0;
   }
 
   .trainings {
