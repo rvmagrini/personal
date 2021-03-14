@@ -33,17 +33,44 @@ a:hover {
   color: #00334e;
 }
 
-header {
-  background-color: #62929a;
-  color: #40514e;
-  padding: 15vh 0 15vh 0;
-}
-
 h1 {
   color: #233142;
   font-family: "Sacramento", cursive;
   font-size: 6rem;
   margin-bottom: 40px;
+}
+
+h2 {
+  color: #233142;
+  font-family: "Montserrat", sans-serif;
+  font-size: 4.5rem;
+  font-weight: normal;
+  padding-bottom: 8vh;
+}
+
+h3 {
+  color: #233142;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 2vh;
+}
+
+h5 {
+  font-family: "Montserrat", sans-serif;
+  margin: auto;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #b8b0b0;
+  border-width: 10px;
+  margin: auto;
+  width: 8%;
+}
+
+header {
+  background-color: #62929a;
+  color: #40514e;
+  padding: 15vh 0 15vh 0;
 }
 
 .sub-title {
@@ -71,14 +98,6 @@ section {
   margin-bottom: 5vh;
 }
 
-h2 {
-  color: #233142;
-  font-family: "Montserrat", sans-serif;
-  font-size: 4.5rem;
-  font-weight: normal;
-  padding-bottom: 8vh;
-}
-
 .text-box {
   text-align: left;
   margin: auto;
@@ -91,14 +110,6 @@ h2 {
   padding-bottom: 5vh;
 }
 
-hr {
-  border-style: dotted none none;
-  border-color: #b8b0b0;
-  border-width: 10px;
-  margin: auto;
-  width: 8%;
-}
-
 .text-box-skill {
   width: 50vw;
 }
@@ -107,12 +118,6 @@ hr {
   width: 80vw;
   margin: auto;
   margin: 3vh auto 5vh auto;
-}
-
-h3 {
-  color: #233142;
-  font-family: "Montserrat", sans-serif;
-  padding-bottom: 2vh;
 }
 
 .skill-icon {
@@ -130,11 +135,6 @@ h3 {
   display: grid;
   border-left: 1.5px solid rgba(0, 0, 0, 0.514);
   border-radius: 16px;
-}
-
-h5 {
-  font-family: "Montserrat", sans-serif;
-  margin: auto;
 }
 
 .training-img {
@@ -214,6 +214,10 @@ footer {
     font-size: 3rem;
   }
 
+  h2 {
+    font-size: 3.2rem;
+  }
+
   .sub-title {
     font-size: 1.5rem;
   }
@@ -228,10 +232,6 @@ footer {
 
   .profile-pic {
     width: 120px;
-  }
-
-  h2 {
-    font-size: 3.2rem;
   }
 
   .text-box {
