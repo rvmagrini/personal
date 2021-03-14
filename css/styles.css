@@ -256,7 +256,8 @@ footer {
   .training-item {
     display: grid;
     text-align: left;
-    border-left: 2px solid rgba(0, 0, 0, 0.726);
+    border-left: 1.5px solid rgba(0, 0, 0, 0.514);
+    border-radius: 16px;
   }
 
   .training-img {
