@@ -158,7 +158,7 @@ section {
 }
 
 .projects-icons {
-  width: 70px;
+  width: 45px;
   float: left;
   margin-right: 20px;
 }
@@ -260,10 +260,6 @@ footer {
 
   .projects {
     padding-bottom: 3vh;
-  }
-
-  .projects-icons {
-    width: 45px;
   }
 
   .contact-me {
